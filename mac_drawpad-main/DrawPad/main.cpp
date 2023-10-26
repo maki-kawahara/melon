@@ -35,7 +35,12 @@ void DrawMain()
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
     
+<<<<<<< HEAD
+    // 白い円を追加(HW22A080_231019_1450)
+    DrawCircle(0, 0, 100, kColorWhite);
+=======
     //追加()
     DrawCircle(0, 0, 100, 0xd0cdff);
+>>>>>>> fb3130f9af816c29de2a081c907505d605e26fe2
 }
 
